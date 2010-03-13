@@ -1,6 +1,14 @@
 {
-    "name": "",
+    "uid": "http://registry.pinf.org/cadorn.org/github/pintura/example/",
+    "name": "example",
     "author": "",
     "dependencies": ["pintura"],
-    "contributors": []
+    "contributors": [],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/cadorn/pintura.git",
+            "path": "example"
+        }
+    ]
 }
