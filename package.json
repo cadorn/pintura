@@ -14,5 +14,11 @@
 	"githubName": "pintura",
 	"type": "zip",
 	"location": "http://github.com/kriszyp/pintura/zipball/master",
-	"license":"AFL/BSD"
+	"license":"AFL/BSD",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/cadorn/pintura.git"
+        }
+    ]
 }
