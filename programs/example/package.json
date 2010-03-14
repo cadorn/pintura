@@ -1,11 +1,27 @@
 {
-    "uid": "http://registry.pinf.org/cadorn.org/github/pintura/programs/example/",
-    "name": "example",
+    "uid": "http://registry.pinf.org/cadorn.org/github/pintura/programs/example-program/",
+    "name": "example-program",
     "repositories": [
         {
             "type": "git",
             "url": "git://github.com/cadorn/pintura.git",
             "path": "programs/example"
         }
-    ]
+    ],
+    "dependencies": {
+        "example": {
+            "catalog": "http://registry.pinf.org/cadorn.org/github/pintura/catalog.json",
+            "name": "example",
+            "revision": "master"
+        }
+    },
+    "implements": {
+        "http://registry.pinf.org/cadorn.org/github/pinf/@meta/program/package/0.1.0": {
+            "builders": {
+                "raw": {
+                    "module": "builder"
+                }
+            }
+        }
+    }
 }

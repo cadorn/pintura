@@ -1,21 +1,40 @@
 {
     "uid": "http://registry.pinf.org/cadorn.org/github/pintura/",
-	"name": "pintura",
-	"author": "Kris Zyp",
-	"email": "kriszyp@gmail.com",
-	"dependencies": ["narwhal", "jack", "perstore", "commonjs-utils", "narcissus", "wiky"],
-	"contributors": [],
-	"keywords": [
-		"rest",
-		"database",
-		"web",
-		"json",
-		"persevere"
-	],
-	"githubName": "pintura",
-	"type": "zip",
-	"location": "http://github.com/kriszyp/pintura/zipball/master",
-	"license":"AFL/BSD",
+    "name": "pintura",
+    "author": "Kris Zyp",
+    "email": "kriszyp@gmail.com",
+    "dependencies": {
+        "narwhal": {
+            "location": "http://github.com/kriszyp/narwhal/zipball/master"
+        },
+        "jack": {
+            "location": "http://github.com/kriszyp/jack/zipball/master"
+        },
+        "perstore": {
+            "location": "http://github.com/kriszyp/perstore/zipball/master"
+        },
+        "commonjs-utils": {
+            "location": "http://github.com/kriszyp/commonjs-utils/zipball/master"
+        },
+        "narcissus": {
+            "location": "http://github.com/cadorn/narcissus/zipball/master"
+        },
+        "wiky": {
+            "location": "http://github.com/kriskowal/wiky/zipball/master"
+        }
+    },
+    "contributors": [],
+    "keywords": [
+        "rest",
+        "database",
+        "web",
+        "json",
+        "persevere"
+    ],
+    "githubName": "pintura",
+    "type": "zip",
+    "location": "http://github.com/kriszyp/pintura/zipball/master",
+    "license": "AFL/BSD",
     "repositories": [
         {
             "type": "git",

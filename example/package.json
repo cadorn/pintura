@@ -2,7 +2,13 @@
     "uid": "http://registry.pinf.org/cadorn.org/github/pintura/example/",
     "name": "example",
     "author": "",
-    "dependencies": ["pintura"],
+    "dependencies": {
+        "pintura": {
+            "catalog": "http://registry.pinf.org/cadorn.org/github/catalog.json",
+            "name": "pintura",
+            "revision": "master"
+        }
+    },
     "contributors": [],
     "repositories": [
         {

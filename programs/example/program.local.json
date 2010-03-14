@@ -1,0 +1,72 @@
+{
+    "packages": {
+        "system": {
+            "program": {
+                "pintura": {
+                    "@": {
+                        "uid": "http://registry.pinf.org/cadorn.org/github/pintura/",
+                        "locator": {
+                            "catalog": "http://registry.pinf.org/cadorn.org/github/catalog.json",
+                            "name": "pintura",
+                            "revision": "master"
+                        }
+                    },
+                    "narwhal": {
+                        "@": {
+                            "locator": {
+                                "location": "http://github.com/kriszyp/narwhal/zipball/master"
+                            }
+                        }
+                    },
+                    "jack": {
+                        "@": {
+                            "locator": {
+                                "location": "http://github.com/kriszyp/jack/zipball/master"
+                            }
+                        }
+                    },
+                    "perstore": {
+                        "@": {
+                            "locator": {
+                                "location": "http://github.com/kriszyp/perstore/zipball/master"
+                            }
+                        }
+                    },
+                    "commonjs-utils": {
+                        "@": {
+                            "locator": {
+                                "location": "http://github.com/kriszyp/commonjs-utils/zipball/master"
+                            }
+                        }
+                    },
+                    "narcissus": {
+                        "@": {
+                            "locator": {
+                                "location": "http://github.com/cadorn/narcissus/zipball/master"
+                            }
+                        }
+                    },
+                    "wiky": {
+                        "@": {
+                            "locator": {
+                                "location": "http://github.com/kriskowal/wiky/zipball/master"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "using": {
+            "program": {
+                "@": {
+                    "uid": "http://registry.pinf.org/cadorn.org/github/pintura/example/",
+                    "locator": {
+                        "catalog": "http://registry.pinf.org/cadorn.org/github/pintura/catalog.json",
+                        "name": "example",
+                        "revision": "master"
+                    }
+                }
+            }
+        }
+    }
+}
