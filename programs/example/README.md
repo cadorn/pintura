@@ -37,7 +37,7 @@ To make changes to perstore:
 
     pinf build-program programs/example
 
-The same is true for:
+You can now make changes to the source code and re-launch the example to see your changes. The same is true for:
 
     pinf checkout-workspace -s github.com/cadorn/commonjs-utils
 
