@@ -22,6 +22,10 @@
                     "module": "builder"
                 }
             }
+        },
+        "settings": {
+            "bypassSecurity": true,
+            "admins": ["admin"]
         }
     }
 }

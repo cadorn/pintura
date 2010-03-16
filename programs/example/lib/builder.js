@@ -50,9 +50,7 @@ ProgramBuilder.prototype.build = function(options) {
     // update program settings
     var descriptor = JSON.decode(buildBasePath.join("package.json").read().toString());
 
-    // TODO: These config settings should not be first-level properties but instead me set on
-    //       {"implements": { "settings": {...} }
-    descriptor.dataFolder = dataBasePath.valueOf();
+    descriptor["implements"]["settings"]["dataFolder"] = dataBasePath.valueOf();
 
     buildBasePath.join("package.json").write(JSON.encode(descriptor, null, "    "));    
 }

@@ -20,7 +20,9 @@
             "revision": "master"
         },
         "commonjs-utils": {
-            "location": "http://github.com/kriszyp/commonjs-utils/zipball/master"
+            "catalog": "http://registry.pinf.org/cadorn.org/github/catalog.json",
+            "name": "commonjs-utils",
+            "revision": "master"
         },
         "narcissus": {
             "location": "http://github.com/cadorn/narcissus/zipball/master"
