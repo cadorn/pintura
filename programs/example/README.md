@@ -17,7 +17,7 @@ Assumption: You have PINF installed.
 
     pinf checkout-workspace -s github.com/cadorn/pintura
 
-    pinf build-program build-program programs/example
+    pinf build-program programs/example
 
     pinf launch-program programs/example --bin jackup
 

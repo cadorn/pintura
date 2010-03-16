@@ -20,8 +20,7 @@ ProgramBuilder.prototype.build = function(options) {
 
 
     // determine path to example package
-    var programPackageDescriptor = this.targetPackage.getDescriptor(),
-        exampleLocator = programPackageDescriptor.getDependencyLocatorForName("example"),
+    var exampleLocator = this.programPackage.getSystemPackageLocatorForName("example"),
         exampleTopLevelId = exampleLocator.getTopLevelId();
 
 
@@ -42,14 +41,11 @@ ProgramBuilder.prototype.build = function(options) {
     buildBasePath.join("packages", "narwhal", "bin", "narwhal").chmod(0755);
     buildBasePath.join("packages", "jack", "bin", "jackup").chmod(0755);
 
-
-    // create data directory
-    dataBasePath.mkdirs();
-    
     
     // update program settings
     var descriptor = JSON.decode(buildBasePath.join("package.json").read().toString());
 
+    dataBasePath.mkdirs();
     descriptor["implements"]["settings"]["dataFolder"] = dataBasePath.valueOf();
 
     buildBasePath.join("package.json").write(JSON.encode(descriptor, null, "    "));    
