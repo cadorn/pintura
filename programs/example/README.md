@@ -6,10 +6,10 @@ Pintura example as a PINF program
 
 Requirements:
 
-  * [PINF](http://github.com/cadorn/pinf)
+  * [PINF](http://github.com/cadorn/pinf) - [Installation instructions](http://github.com/cadorn/pinf/blob/master/docs/Install.md)
 
-  
-  
+
+
 From Source
 -----------
 
