@@ -5,13 +5,19 @@
     "email": "kriszyp@gmail.com",
     "dependencies": {
         "narwhal": {
-            "location": "http://github.com/kriszyp/narwhal/zipball/master"
+            "catalog": "http://registry.pinf.org/cadorn.org/github/catalog.json",
+            "name": "narwhal",
+            "revision": "experimental"
         },
         "jack": {
-            "location": "http://github.com/kriszyp/jack/zipball/master"
+            "catalog": "http://registry.pinf.org/cadorn.org/github/catalog.json",
+            "name": "jack",
+            "revision": "master"
         },
         "perstore": {
-            "location": "http://github.com/kriszyp/perstore/zipball/master"
+            "catalog": "http://registry.pinf.org/cadorn.org/github/catalog.json",
+            "name": "perstore",
+            "revision": "master"
         },
         "commonjs-utils": {
             "location": "http://github.com/kriszyp/commonjs-utils/zipball/master"
