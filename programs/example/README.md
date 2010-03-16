@@ -29,17 +29,17 @@ The wiki data is stored at:
 
     ~/pinf/data/registry.pinf.org/cadorn.org/github/pintura/programs/example-program/master
 
-To make changes to perstore:
+To work on perstore and commonjs-utils:
 
     pinf checkout-workspace -s github.com/cadorn/perstore
+    pinf checkout-workspace -s github.com/cadorn/commonjs-utils
 
     pinf map-sources
 
     pinf build-program programs/example
 
-You can now make changes to the source code and re-launch the example to see your changes. The same is true for:
-
-    pinf checkout-workspace -s github.com/cadorn/commonjs-utils
+You can now make changes in the workspaces at `~/pinf/workspaces/` and launch the example program to test them.
+You only need to re-build the program to change a dependency.
 
 If you want to contribute back to the projects you need to fork the github repository first and replace the *cadorn* username
 with your own.
